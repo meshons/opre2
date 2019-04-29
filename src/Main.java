@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         MemoriaKezeloFIFO mkFIFO = new MemoriaKezeloFIFO(4);
         MemoriaKezeloLRU mkLRU = new MemoriaKezeloLRU(4);
-        MemoriaKezeloLRU mkLRU2 = new MemoriaKezeloLRU(4);
+        MemoriaKezeloLRU2 mkLRU2 = new MemoriaKezeloLRU2(4);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String line;
         PrintWriter writer = new PrintWriter(System.out);
